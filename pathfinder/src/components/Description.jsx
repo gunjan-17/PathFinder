@@ -20,8 +20,6 @@ const Description = () => {
       setTxt(algoInfo[4]);
     } else if (algorithm === "Dijkstra") {
       setTxt(algoInfo[0]);
-    } else if (algorithm === "AStar") {
-      setTxt(algoInfo[1]);
     } else if (algorithm === "BFS") {
       setTxt(algoInfo[2]);
     } else if (algorithm === "DFS") {
