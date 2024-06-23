@@ -243,7 +243,7 @@ const Nav = () => {
               bg={"gray.600"}
               _hover={{ bg: "gray.700" }}
               onClick={() => {
-                dispatch(setAlgorithm("AStar"));
+                dispatch(setAlgorithm("BFS"));
               }}
             >
              
