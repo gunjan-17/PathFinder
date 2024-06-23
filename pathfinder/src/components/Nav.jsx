@@ -78,8 +78,8 @@ const Nav = () => {
         ? bfs(start, end, wallNode)
         : algorithm === "Dijkstra"
         ? Dijkstra(start, end, wallNode, weightNode)
-        : algorithm === "AStar"
-        ? AStar(start, end, wallNode, weightNode)
+        /**: algorithm === "AStar"
+        ? AStar(start, end, wallNode, weightNode)**/
         : { visited: [], path: [] };
     // console.log("visited", result.visited);
     dispatch(setVisitedNodes(result.visited));
