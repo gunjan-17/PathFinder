@@ -246,15 +246,7 @@ const Nav = () => {
                 dispatch(setAlgorithm("AStar"));
               }}
             >
-              A* Algorithm
-            </MenuItem>
-            <MenuItem
-              bg={"gray.600"}
-              _hover={{ bg: "gray.700" }}
-              onClick={() => {
-                dispatch(setAlgorithm("BFS"));
-              }}
-            >
+             
               Breadth First Search
             </MenuItem>
             <MenuItem
